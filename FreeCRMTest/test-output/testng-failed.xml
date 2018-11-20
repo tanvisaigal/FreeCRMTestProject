@@ -16,6 +16,17 @@
           <include name="setUp"/>
         </methods>
       </class> <!-- com.crm.testcases.LoginPageTest -->
+      <class name="com.crm.testcases.HomePageTest">
+        <methods>
+          <include name="contactspageTest"/>
+          <include name="setUp"/>
+          <include name="verifyHomePagetitleTest"/>
+          <include name="dealspageTest"/>
+          <include name="taskspageTest"/>
+          <include name="usernamedisplayTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.crm.testcases.HomePageTest -->
     </classes>
   </test> <!-- Free CRM App Test Cases(failed) -->
 </suite> <!-- Failed suite [FREE CRM Application Test Automation Test Suite] -->
